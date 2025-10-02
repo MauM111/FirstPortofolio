@@ -361,3 +361,8 @@ html, body {
 
 h1, h2, h3 { font-weight: 700; }
 .site-title { font-weight: 700; letter-spacing: 0.2px; }
+
+/* Footer – social icons (light & dark) */
+.socials a { color: var(--ink-soft); }
+.socials a svg, .socials a svg * { fill: currentColor !important; }
+.dark .socials a { color: #cfd6e6; }
